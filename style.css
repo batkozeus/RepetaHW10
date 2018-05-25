@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+}
+
+.wrapper {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid gold;
+    border-radius: 15px;
+    padding: 2%;
+    width: 960px;
+    background: #bbecec;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th {
+    padding: 8px;
+}
+
+.mdc-btn {
+    margin: 8px 8px 30px;
+    width: 144px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.mdc-input {
+    height: 30px;
+    width: 160px;
+    padding: 4px;
+    font-size: 16px;
+}
